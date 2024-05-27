@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SampleXML" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;configuration&gt;
+    &lt;configSections&gt;
+        &lt;sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System.Configuration.ConfigurationManager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" &gt;
+            &lt;section name="stigzler.Winforms.Base.Properties.Settings" type="System.Configuration.ClientSettingsSection, System.Configuration.ConfigurationManager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" allowExeDefinition="MachineToLocalUser" requirePermission="false" /&gt;
+            &lt;section name="stigzler.Launchbox.Gearbox.Presentation.Properties.Settings" type="System.Configuration.ClientSettingsSection, System.Configuration.ConfigurationManager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" allowExeDefinition="MachineToLocalUser" requirePermission="false" /&gt;
+            &lt;section name="stigzler.Launchbox.Gearbox.Data.Properties.Settings" type="System.Configuration.ClientSettingsSection, System.Configuration.ConfigurationManager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" allowExeDefinition="MachineToLocalUser" requirePermission="false" /&gt;
+        &lt;/sectionGroup&gt;
+    &lt;/configSections&gt;
+    &lt;userSettings&gt;
+        &lt;stigzler.Winforms.Base.Properties.Settings&gt;
+            &lt;setting name="ToolStripPanelItemLocations" serializeAs="Xml"&gt;
+                &lt;value&gt;
+                    &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+                        &lt;string /&gt;
+                        &lt;string&gt;BottomTSP|&lt;/string&gt;
+                        &lt;string&gt;TopTSP|LayoutAlignmentsTS:268,0-True;LayoutGridTS:164,0-True;LayoutViewTS:3,0-True;&lt;/string&gt;
+                    &lt;/ArrayOfString&gt;
+                &lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="FormClosureStates" serializeAs="Xml"&gt;
+                &lt;value&gt;
+                    &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+                        &lt;string&gt;stigzler.Launchbox.Gearbox.Presentation.Views.Forms.Settings 526,287;1193,919;0&lt;/string&gt;
+                        &lt;string&gt;stigzler.Launchbox.Gearbox.Presentation.Views.Forms.LayoutsBrowser 652,431;949,558;0&lt;/string&gt;
+                        &lt;string&gt;stigzler.Launchbox.Gearbox.Presentation.Views.Forms.MainView 110,42;2312,1352;0&lt;/string&gt;
+                    &lt;/ArrayOfString&gt;
+                &lt;/value&gt;
+            &lt;/setting&gt;
+        &lt;/stigzler.Winforms.Base.Properties.Settings&gt;
+        &lt;stigzler.Launchbox.Gearbox.Presentation.Properties.Settings&gt;
+            &lt;setting name="UIDarkMode" serializeAs="String"&gt;
+                &lt;value&gt;True&lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="GamesViewImageSize" serializeAs="String"&gt;
+                &lt;value&gt;150&lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="ProductionDatabaseOutputDirectory" serializeAs="String"&gt;
+                &lt;value /&gt;
+            &lt;/setting&gt;
+            &lt;setting name="UIDockingPersistenceToolWindows" serializeAs="Xml"&gt;
+                &lt;value&gt;
+                    &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+                        &lt;string&gt;2&lt;/string&gt;
+                        &lt;string&gt;1&lt;/string&gt;
+                        &lt;string&gt;3&lt;/string&gt;
+                        &lt;string&gt;4&lt;/string&gt;
+                    &lt;/ArrayOfString&gt;
+                &lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="UIDockingPersistenceByteArray" serializeAs="String"&gt;
+                &lt;value&gt;//48AD8AeABtAGwAIAB2AGUAcgBzAGkAbwBuAD0AIgAxAC4AMAAiACAAZQBuAGMAbwBkAGkAbgBnAD0AIgB1AHQAZgAtADEANgAiAD8APgANAAoAPABLAEQAIABWAD0AIgAxACIAPgANAAoAIAAgADwARABHAEQAIAAvAD4ADQAKACAAIAA8AEQATQAgAE4APQAiAEQAbwBjAGsAaQBuAGcATQBhAG4AYQBnAGUAcgAiACAAQwA9ACIAMwAiAD4ADQAKACAAIAAgACAAPABEAFcAIABOAD0AIgBXAG8AcgBrAHMAcABhAGMAZQAiACAATwA9ACIAMAAiACAAUwA9ACIAMQA3ADAANgAsACAAOQA4ADAAIgA+AA0ACgAgACAAIAAgACAAIAA8AEsAVwAgAFYAPQAiADEAIgAgAEEAPQAiAFQAbwBvAGwAVwBpAG4AZABvAHcALgBHAGEAbQBlAEIAcgBvAHcAcwBlAHIAIgA+AA0ACgAgACAAIAAgACAAIAAgACAAPABDAEcARAAgAC8APgANAAoAIAAgACAAIAAgACAAIAAgADwAVwBTACAAVQBOAD0AIgBjADIANgA3ADcAMAAwADAAMAA5AGYAYgA0AGQANABlADgAMgAxADYAMwAzAGYAZQA4ADcAMAAyADcAYwBhADgAIgAgAFMAPQAiAFQALAAwACwANQAwADoAVAAsADAALAA1ADAAIgAgAEQAPQAiAEgAbwByAGkAegBvAG4AdABhAGwAIgA+AA0ACgAgACAAIAAgACAAIAAgACAAIAAgADwAVwBDACAAVQBOAD0AIgBlADkAMQA4AGMAYQBmAGQANABlADIAYwA0AGQAZAA1AGEANwAyADIAOAA3AGQANwBiAGYAZgAzAGQAOABiAGQAIgAgAFMAPQAiAFQALAAwACwANQAwADoAVAAsADAALAA1ADAAIgAgAE4ATQA9ACIAQgBhAHIAVABhAGIARwByAG8AdQBwACIAIABBAFIAPQAiAFQAcgB1AGUAIgAgAE0ASQBOAFMAPQAiADEANQAwACwAIAAxADEAMAAiACAAUwBQAD0AIgBUAG8AbwBsAFcAaQBuAGQAbwB3AC4ARwBhAG0AZQBCAHIAbwB3AHMAZQByACIAPgANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPABLAFAAIABVAE4APQAiAFQAbwBvAGwAVwBpAG4AZABvAHcALgBHAGEAbQBlAEIAcgBvAHcAcwBlAHIAIgAgAFMAPQAiAEYAYQBsAHMAZQAiAD4ADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA8AEMAUABEACAALwA+AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAA8AC8ASwBQAD4ADQAKACAAIAAgACAAIAAgACAAIAAgACAAPAAvAFcAQwA+AA0ACgAgACAAIAAgACAAIAAgACAAPAAvAFcAUwA+AA0ACgAgACAAIAAgACAAIAA8AC8ASwBXAD4ADQAKACAAIAAgACAAPAAvAEQAVwA+AA0ACgAgACAAIAAgADwARABDACAATgA9ACIARABvAGMAawBpAG4AZwBQAGEAbgBlAGwAIgAgAEMAPQAiADQAIgA+AA0ACgAgACAAIAAgACAAIAA8AEQARQAgAE4APQAiAFQAbwBwACIAIABDAD0AIgAyACIAPgANAAoAIAAgACAAIAAgACAAIAAgADwARABFAEEASAAgAE4APQAiAEEAdQB0AG8ASABpAGQAZABlAG4AIgAgAEMAPQAiADAAIgA+AA0ACgAgACAAIAAgACAAIAAgACAAPAAvAEQARQBBAEgAPgANAAoAIAAgACAAIAAgACAAIAAgADwARABFAEQAIABOAD0AIgBEAG8AYwBrAGUAZAAiACAAQwA9ACIAMAAiAD4ADQAKACAAIAAgACAAIAAgACAAIAA8AC8ARABFAEQAPgANAAoAIAAgACAAIAAgACAAPAAvAEQARQA+AA0ACgAgACAAIAAgACAAIAA8AEQARQAgAE4APQAiAEIAbwB0AHQAbwBtACIAIABDAD0AIgAyACIAPgANAAoAIAAgACAAIAAgACAAIAAgADwARABFAEEASAAgAE4APQAiAEEAdQB0AG8ASABpAGQAZABlAG4AIgAgAEMAPQAiADAAIgA+AA0ACgAgACAAIAAgACAAIAAgACAAPAAvAEQARQBBAEgAPgANAAoAIAAgACAAIAAgACAAIAAgADwARABFAEQAIABOAD0AIgBEAG8AYwBrAGUAZAAiACAAQwA9ACIAMQAiAD4ADQAKACAAIAAgACAAIAAgACAAIAAgACAAPABEAEQAIABOAD0AIgBkADIANwBiADIAYQBhAGMAOQA2ADEAZQA0AGMAMQAwADgAYwBiADQAZAA2ADYAYwA2ADMANgBlADkANQA1ADUAIgAgAE8APQAiADAAIgAgAFMAPQAiADIAMgA5ADYALAAgADIANQAxACIAPgANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPABLAFcAIABWAD0AIgAxACIAIABBAD0AIgBUAG8AbwBsAFcAaQBuAGQAbwB3AC4AQwBvAG4AcwBvAGwAZQAiAD4ADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA8AEMARwBEACAALwA+AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPABXAFMAIABVAE4APQAiADkANwBjAGQAYQBhADYAYgA5ADMANAA3ADQAMgAwADAAYgA0ADkAMgAwADYAYQA2AGMAMAA0ADMAZABkADAAMAAiACAAUwA9ACIAVAAsADAALAA1ADAAOgBUACwAMAAsADUAMAAiACAARAA9ACIASABvAHIAaQB6AG8AbgB0AGEAbAAiAD4ADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPABXAEMAIABVAE4APQAiADEANAA1ADMAZQBmADQAMAA0AGIAZQBlADQAMABhADQAYQAxAGYANwBlADIANgBiADUANQAzADcANwBhADAAZgAiACAAUwA9ACIAVAAsADAALAA1ADAAOgBUACwAMAAsADUAMAAiACAATgBNAD0AIgBIAGUAYQBkAGUAcgBHAHIAbwB1AHAAIgAgAEEAUgA9ACIAVAByAHUAZQAiACAATQBJAE4AUwA9ACIAMQA1ADAALAAgADEAMQAwACIAIABTAFAAPQAiAFQAbwBvAGwAVwBpAG4AZABvAHcALgBDAG8AbgBzAG8AbABlACIAPgANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPABLAFAAIABVAE4APQAiAFQAbwBvAGwAVwBpAG4AZABvAHcALgBDAG8AbgBzAG8AbABlACIAIABTAD0AIgBGAGEAbABzAGUAIgA+AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPABDAFAARAAgAC8APgANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPAAvAEsAUAA+AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgADwALwBXAEMAPgANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgADwALwBXAFMAPgANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPAAvAEsAVwA+AA0ACgAgACAAIAAgACAAIAAgACAAIAAgADwALwBEAEQAPgANAAoAIAAgACAAIAAgACAAIAAgADwALwBEAEUARAA+AA0ACgAgACAAIAAgACAAIAA8AC8ARABFAD4ADQAKACAAIAAgACAAIAAgADwARABFACAATgA9ACIATABlAGYAdAAiACAAQwA9ACIAMgAiAD4ADQAKACAAIAAgACAAIAAgACAAIAA8AEQARQBBAEgAIABOAD0AIgBBAHUAdABvAEgAaQBkAGQAZQBuACIAIABDAD0AIgAwACIAPgANAAoAIAAgACAAIAAgACAAIAAgADwALwBEAEUAQQBIAD4ADQAKACAAIAAgACAAIAAgACAAIAA8AEQARQBEACAATgA9ACIARABvAGMAawBlAGQAIgAgAEMAPQAiADEAIgA+AA0ACgAgACAAIAAgACAAIAAgACAAIAAgADwARABEACAATgA9ACIAOAAwADcAYwA2ADEAMABjAGMAOAA4AGIANAAzAGEAOQBhADQANAAzADMAMQBiADgAYgAyAGMAMAA2ADcAOQA3ACIAIABPAD0AIgAxACIAIABTAD0AIgAyADQAOAAsACAAOQA4ADAAIgA+AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAA8AEsAVwAgAFYAPQAiADEAIgAgAEEAPQAiAFQAbwBvAGwAVwBpAG4AZABvAHcALgBPAGIAagBlAGMAdABCAHIAbwB3AHMAZQByACIAPgANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgADwAQwBHAEQAIAAvAD4ADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA8AFcAUwAgAFUATgA9ACIAYgA0ADIAYQA2ADYAZABjADgAZgA5AGUANAA0ADAAZABiAGUAOQBiAGUAMwA0ADcAMQA2ADkAMABlAGEAYQA0ACIAIABTAD0AIgBUACwAMAAsADUAMAA6AFQALAAwACwANQAwACIAIABEAD0AIgBIAG8AcgBpAHoAbwBuAHQAYQBsACIAPgANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA8AFcAQwAgAFUATgA9ACIANwAxADcANgA0ADMAOQBhADQAOQBkAGIANAA2AGUANgA4ADUAMQBmADAAMAAyAGMAYgA0ADgAZQBkAGMAYgA3ACIAIABTAD0AIgBUACwAMAAsADUAMAA6AFQALAAwACwANQAwACIAIABOAE0APQAiAEgAZQBhAGQAZQByAEcAcgBvAHUAcAAiACAAQQBSAD0AIgBUAHIAdQBlACIAIABNAEkATgBTAD0AIgAxADUAMAAsACAAMQAxADAAIgAgAFMAUAA9ACIAVABvAG8AbABXAGkAbgBkAG8AdwAuAE8AYgBqAGUAYwB0AEIAcgBvAHcAcwBlAHIAIgA+AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA8AEsAUAAgAFUATgA9ACIAVABvAG8AbABXAGkAbgBkAG8AdwAuAE8AYgBqAGUAYwB0AEIAcgBvAHcAcwBlAHIAIgAgAFMAPQAiAEYAYQBsAHMAZQAiAD4ADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA8AEMAUABEACAALwA+AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA8AC8ASwBQAD4ADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPAAvAFcAQwA+AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPAAvAFcAUwA+AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAA8AC8ASwBXAD4ADQAKACAAIAAgACAAIAAgACAAIAAgACAAPAAvAEQARAA+AA0ACgAgACAAIAAgACAAIAAgACAAPAAvAEQARQBEAD4ADQAKACAAIAAgACAAIAAgADwALwBEAEUAPgANAAoAIAAgACAAIAAgACAAPABEAEUAIABOAD0AIgBSAGkAZwBoAHQAIgAgAEMAPQAiADIAIgA+AA0ACgAgACAAIAAgACAAIAAgACAAPABEAEUAQQBIACAATgA9ACIAQQB1AHQAbwBIAGkAZABkAGUAbgAiACAAQwA9ACIAMAAiAD4ADQAKACAAIAAgACAAIAAgACAAIAA8AC8ARABFAEEASAA+AA0ACgAgACAAIAAgACAAIAAgACAAPABEAEUARAAgAE4APQAiAEQAbwBjAGsAZQBkACIAIABDAD0AIgAxACIAPgANAAoAIAAgACAAIAAgACAAIAAgACAAIAA8AEQARAAgAE4APQAiAGEAMAAxAGYAMQAxADcAOABmADUAZQA4ADQAYQBhAGMAOAA3ADQAMAAwADQAOAAwAGUAYgBjADgANwBlAGMAZQAiACAATwA9ACIAMgAiACAAUwA9ACIAMwAzADIALAAgADkAOAAwACIAPgANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPABLAFcAIABWAD0AIgAxACIAIABBAD0AIgBUAG8AbwBsAFcAaQBuAGQAbwB3AC4AUAByAG8AcABlAHIAdABpAGUAcwAiAD4ADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA8AEMARwBEACAALwA+AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPABXAFMAIABVAE4APQAiAGIAMQA3ADAAYwBjADcAMAA3ADIANwAwADQAYQBkADgAYgBkAGIANwBiADUAYQBjAGQAMAA1AGEAOQA3AGIAMAAiACAAUwA9ACIAVAAsADAALAA1ADAAOgBUACwAMAAsADUAMAAiACAARAA9ACIASABvAHIAaQB6AG8AbgB0AGEAbAAiAD4ADQAKACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPABXAEMAIABVAE4APQAiAGQANgBmADEAOQAwAGMAOQBlADYANABhADQAOAA4ADQAYgBjADMAOQBjADQAZQA1AGYAZABiAGUANQAxADMAOQAiACAAUwA9ACIAVAAsADAALAA1ADAAOgBUACwAMAAsADUAMAAiACAATgBNAD0AIgBIAGUAYQBkAGUAcgBHAHIAbwB1AHAAIgAgAEEAUgA9ACIAVAByAHUAZQAiACAATQBJAE4AUwA9ACIAMQA1ADAALAAgADEAMQAwACIAIABTAFAAPQAiAFQAbwBvAGwAVwBpAG4AZABvAHcALgBQAHIAbwBwAGUAcgB0AGkAZQBzACIAPgANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPABLAFAAIABVAE4APQAiAFQAbwBvAGwAVwBpAG4AZABvAHcALgBQAHIAbwBwAGUAcgB0AGkAZQBzACIAIABTAD0AIgBGAGEAbABzAGUAIgA+AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPABDAFAARAAgAC8APgANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPAAvAEsAUAA+AA0ACgAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgADwALwBXAEMAPgANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgADwALwBXAFMAPgANAAoAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPAAvAEsAVwA+AA0ACgAgACAAIAAgACAAIAAgACAAIAAgADwALwBEAEQAPgANAAoAIAAgACAAIAAgACAAIAAgADwALwBEAEUARAA+AA0ACgAgACAAIAAgACAAIAA8AC8ARABFAD4ADQAKACAAIAAgACAAPAAvAEQAQwA+AA0ACgAgACAAIAAgADwARABGACAATgA9ACIARgBsAG8AYQB0AGkAbgBnACIAIABDAD0AIgAwACIAPgANAAoAIAAgACAAIAA8AC8ARABGAD4ADQAKACAAIAA8AC8ARABNAD4ADQAKADwALwBLAEQAPgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==&lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="UiEditorDropDownSizes" serializeAs="Xml"&gt;
+                &lt;value&gt;
+                    &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+                        &lt;string&gt;1&lt;/string&gt;
+                        &lt;string&gt;Screen.DisplayName|171|96&lt;/string&gt;
+                        &lt;string&gt;SystemVM.ScreenScraperSystemID|209|468&lt;/string&gt;
+                        &lt;string&gt;SystemVM.ScrapeAs|215|396&lt;/string&gt;
+                    &lt;/ArrayOfString&gt;
+                &lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="UiTCollectionEditorWindowSize" serializeAs="String"&gt;
+                &lt;value&gt;1467, 964&lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="UiTCollectionEditorPropGridSplitter" serializeAs="String"&gt;
+                &lt;value&gt;323&lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="UiTCollectionEditorWindowPos" serializeAs="String"&gt;
+                &lt;value&gt;527, 185&lt;/value&gt;
+            &lt;/setting&gt;
+        &lt;/stigzler.Launchbox.Gearbox.Presentation.Properties.Settings&gt;
+        &lt;stigzler.Launchbox.Gearbox.Data.Properties.Settings&gt;
+            &lt;setting name="ssOrganisationsDir" serializeAs="String"&gt;
+                &lt;value&gt;C:\Users\stigz\LaunchBox\Plugins\GearBox\Assets\Images\Organisations&lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="DataDirectory" serializeAs="String"&gt;
+                &lt;value&gt;C:\Users\stigz\AppData\Roaming\GearBox\Data&lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="SsApiName" serializeAs="String"&gt;
+                &lt;value&gt;OmniGameZ&lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="SsRegionDefaults" serializeAs="Xml"&gt;
+                &lt;value&gt;
+                    &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+                        &lt;string&gt;ss ScreenScraper True -1&lt;/string&gt;
+                        &lt;string&gt;wor World True -1&lt;/string&gt;
+                        &lt;string&gt;eu Europe True -1&lt;/string&gt;
+                        &lt;string&gt;uk United Kingdom True -1&lt;/string&gt;
+                        &lt;string&gt;us USA True -1&lt;/string&gt;
+                        &lt;string&gt;jp Japan True -1&lt;/string&gt;
+                        &lt;string&gt;afr African Continent False -1&lt;/string&gt;
+                        &lt;string&gt;ame American Continent False -1&lt;/string&gt;
+                        &lt;string&gt;asi Asia False -1&lt;/string&gt;
+                        &lt;string&gt;au Australia False -1&lt;/string&gt;
+                        &lt;string&gt;br Brazil False -1&lt;/string&gt;
+                        &lt;string&gt;bg Bulgary False -1&lt;/string&gt;
+                        &lt;string&gt;ca Canada False -1&lt;/string&gt;
+                        &lt;string&gt;cl Chile False -1&lt;/string&gt;
+                        &lt;string&gt;cn China False -1&lt;/string&gt;
+                        &lt;string&gt;cus Custom False -1&lt;/string&gt;
+                        &lt;string&gt;cz Czech republic False -1&lt;/string&gt;
+                        &lt;string&gt;dk Denmark False -1&lt;/string&gt;
+                        &lt;string&gt;fi Finland False -1&lt;/string&gt;
+                        &lt;string&gt;fr France False -1&lt;/string&gt;
+                        &lt;string&gt;de Germany False -1&lt;/string&gt;
+                        &lt;string&gt;gr Greece False -1&lt;/string&gt;
+                        &lt;string&gt;hu Hungary False -1&lt;/string&gt;
+                        &lt;string&gt;il Israel False -1&lt;/string&gt;
+                        &lt;string&gt;it Italy False -1&lt;/string&gt;
+                        &lt;string&gt;kr Korea False -1&lt;/string&gt;
+                        &lt;string&gt;kw Kuwait False -1&lt;/string&gt;
+                        &lt;string&gt;mex Mexico False -1&lt;/string&gt;
+                        &lt;string&gt;mor Middle East False -1&lt;/string&gt;
+                        &lt;string&gt;nl Netherlands False -1&lt;/string&gt;
+                        &lt;string&gt;nz New Zealand False -1&lt;/string&gt;
+                        &lt;string&gt;no Norway False -1&lt;/string&gt;
+                        &lt;string&gt;oce Oceania False -1&lt;/string&gt;
+                        &lt;string&gt;pe Peru False -1&lt;/string&gt;
+                        &lt;string&gt;pl Poland False -1&lt;/string&gt;
+                        &lt;string&gt;pt Portugal False -1&lt;/string&gt;
+                        &lt;string&gt;ru Russia False -1&lt;/string&gt;
+                        &lt;string&gt;sk Slovakia False -1&lt;/string&gt;
+                        &lt;string&gt;za South Africa False -1&lt;/string&gt;
+                        &lt;string&gt;sp Spain False -1&lt;/string&gt;
+                        &lt;string&gt;se Sweden False -1&lt;/string&gt;
+                        &lt;string&gt;tw Taiwan False -1&lt;/string&gt;
+                        &lt;string&gt;tr Turkey False -1&lt;/string&gt;
+                        &lt;string&gt;ae United Arab Emirates False -1&lt;/string&gt;
+                    &lt;/ArrayOfString&gt;
+                &lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="SsHostAddress" serializeAs="String"&gt;
+                &lt;value&gt;https://api.screenscraper.fr&lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="SsPassword" serializeAs="String"&gt;
+                &lt;value&gt;&lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="LoggingLevelConsole" serializeAs="String"&gt;
+                &lt;value&gt;1&lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="SsApiPassword" serializeAs="String"&gt;
+                &lt;value&gt;&lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="ssRemoveNonGameText" serializeAs="String"&gt;
+                &lt;value&gt;True&lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="SsUsername" serializeAs="String"&gt;
+                &lt;value&gt;stigzler&lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="LbPlatformsMediaRootDir" serializeAs="String"&gt;
+                &lt;value /&gt;
+            &lt;/setting&gt;
+            &lt;setting name="LoggingLevelText" serializeAs="String"&gt;
+                &lt;value&gt;1&lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="SsLanguageDefaults" serializeAs="Xml"&gt;
+                &lt;value&gt;
+                    &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+                        &lt;string&gt;en English True -1&lt;/string&gt;
+                        &lt;string&gt;zh Chinese False -1&lt;/string&gt;
+                        &lt;string&gt;cz Czech False -1&lt;/string&gt;
+                        &lt;string&gt;da Danish False -1&lt;/string&gt;
+                        &lt;string&gt;nl Dutch False -1&lt;/string&gt;
+                        &lt;string&gt;fi Finnish False -1&lt;/string&gt;
+                        &lt;string&gt;fr French False -1&lt;/string&gt;
+                        &lt;string&gt;de German False -1&lt;/string&gt;
+                        &lt;string&gt;hu Hungarian False -1&lt;/string&gt;
+                        &lt;string&gt;it Italian False -1&lt;/string&gt;
+                        &lt;string&gt;ja Japanese False -1&lt;/string&gt;
+                        &lt;string&gt;ko Korean False -1&lt;/string&gt;
+                        &lt;string&gt;no Norwegian False -1&lt;/string&gt;
+                        &lt;string&gt;pl Polish False -1&lt;/string&gt;
+                        &lt;string&gt;pt Portuguese False -1&lt;/string&gt;
+                        &lt;string&gt;ru Russian False -1&lt;/string&gt;
+                        &lt;string&gt;sk Slovak False -1&lt;/string&gt;
+                        &lt;string&gt;es Spanish False -1&lt;/string&gt;
+                        &lt;string&gt;sv Swedish False -1&lt;/string&gt;
+                        &lt;string&gt;tr Turkish False -1&lt;/string&gt;
+                    &lt;/ArrayOfString&gt;
+                &lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="SsApiUsername" serializeAs="String"&gt;
+                &lt;value&gt;stigzler&lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="ssDownloadOrganisationImages" serializeAs="String"&gt;
+                &lt;value&gt;True&lt;/value&gt;
+            &lt;/setting&gt;
+            &lt;setting name="SsSystemsIdMap" serializeAs="Xml"&gt;
+                &lt;value&gt;
+                    &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+                        &lt;string&gt;1|Megadrive&lt;/string&gt;
+                        &lt;string&gt;2|Master System&lt;/string&gt;
+                        &lt;string&gt;3|NES&lt;/string&gt;
+                        &lt;string&gt;4|Super Nintendo&lt;/string&gt;
+                        &lt;string&gt;6|Capcom Play System&lt;/string&gt;
+                        &lt;string&gt;7|Capcom Play System 2&lt;/string&gt;
+                        &lt;string&gt;8|Capcom Play System 3&lt;/string&gt;
+                        &lt;string&gt;9|Game Boy&lt;/string&gt;
+                        &lt;string&gt;10|Game Boy Color&lt;/string&gt;
+                        &lt;string&gt;11|Virtual Boy&lt;/string&gt;
+                        &lt;string&gt;12|Game Boy Advance&lt;/string&gt;
+                        &lt;string&gt;13|Gamecube&lt;/string&gt;
+                        &lt;string&gt;14|Nintendo 64&lt;/string&gt;
+                        &lt;string&gt;15|Nintendo DS&lt;/string&gt;
+                        &lt;string&gt;16|Wii&lt;/string&gt;
+                        &lt;string&gt;17|Nintendo 3DS&lt;/string&gt;
+                        &lt;string&gt;18|Wii U&lt;/string&gt;
+                        &lt;string&gt;19|Megadrive 32X&lt;/string&gt;
+                        &lt;string&gt;20|Mega-CD&lt;/string&gt;
+                        &lt;string&gt;21|Game Gear&lt;/string&gt;
+                        &lt;string&gt;22|Saturn&lt;/string&gt;
+                        &lt;string&gt;23|Dreamcast&lt;/string&gt;
+                        &lt;string&gt;25|Neo-Geo Pocket&lt;/string&gt;
+                        &lt;string&gt;26|Atari 2600&lt;/string&gt;
+                        &lt;string&gt;27|Jaguar&lt;/string&gt;
+                        &lt;string&gt;28|Lynx&lt;/string&gt;
+                        &lt;string&gt;29|3DO&lt;/string&gt;
+                        &lt;string&gt;30|N-Gage&lt;/string&gt;
+                        &lt;string&gt;31|PC Engine&lt;/string&gt;
+                        &lt;string&gt;32|Xbox&lt;/string&gt;
+                        &lt;string&gt;33|Xbox 360&lt;/string&gt;
+                        &lt;string&gt;34|Xbox One&lt;/string&gt;
+                        &lt;string&gt;36|Atom&lt;/string&gt;
+                        &lt;string&gt;37|BBC Micro&lt;/string&gt;
+                        &lt;string&gt;39|Atari 2600 Supercharger&lt;/string&gt;
+                        &lt;string&gt;40|Atari 5200&lt;/string&gt;
+                        &lt;string&gt;41|Atari 7800&lt;/string&gt;
+                        &lt;string&gt;42|Atari ST&lt;/string&gt;
+                        &lt;string&gt;43|Atari 8bit&lt;/string&gt;
+                        &lt;string&gt;44|Astrocade&lt;/string&gt;
+                        &lt;string&gt;45|WonderSwan&lt;/string&gt;
+                        &lt;string&gt;46|WonderSwan Color&lt;/string&gt;
+                        &lt;string&gt;47|Cave&lt;/string&gt;
+                        &lt;string&gt;48|Colecovision&lt;/string&gt;
+                        &lt;string&gt;49|Daphne&lt;/string&gt;
+                        &lt;string&gt;50|CoreGrafX&lt;/string&gt;
+                        &lt;string&gt;52|Game &amp;amp; Watch&lt;/string&gt;
+                        &lt;string&gt;53|Atomiswave&lt;/string&gt;
+                        &lt;string&gt;54|Model 2&lt;/string&gt;
+                        &lt;string&gt;55|Model 3&lt;/string&gt;
+                        &lt;string&gt;56|Naomi&lt;/string&gt;
+                        &lt;string&gt;57|Playstation&lt;/string&gt;
+                        &lt;string&gt;58|Playstation 2&lt;/string&gt;
+                        &lt;string&gt;59|Playstation 3&lt;/string&gt;
+                        &lt;string&gt;60|Playstation 4&lt;/string&gt;
+                        &lt;string&gt;61|PSP&lt;/string&gt;
+                        &lt;string&gt;62|PS Vita&lt;/string&gt;
+                        &lt;string&gt;63|Android&lt;/string&gt;
+                        &lt;string&gt;64|Amiga&lt;/string&gt;
+                        &lt;string&gt;65|CPC&lt;/string&gt;
+                        &lt;string&gt;66|Commodore 64&lt;/string&gt;
+                        &lt;string&gt;67|Super Cassette Vision&lt;/string&gt;
+                        &lt;string&gt;68|Neo-Geo MVS&lt;/string&gt;
+                        &lt;string&gt;69|Sega ST-V&lt;/string&gt;
+                        &lt;string&gt;70|Neo-Geo CD&lt;/string&gt;
+                        &lt;string&gt;72|PC-FX&lt;/string&gt;
+                        &lt;string&gt;73|Vic-20&lt;/string&gt;
+                        &lt;string&gt;74|PV-1000&lt;/string&gt;
+                        &lt;string&gt;75|Mame&lt;/string&gt;
+                        &lt;string&gt;76|ZX Spectrum&lt;/string&gt;
+                        &lt;string&gt;77|ZX81&lt;/string&gt;
+                        &lt;string&gt;78|Adventure Vision&lt;/string&gt;
+                        &lt;string&gt;79|Sharp X68000&lt;/string&gt;
+                        &lt;string&gt;80|Channel F&lt;/string&gt;
+                        &lt;string&gt;81|Action Max&lt;/string&gt;
+                        &lt;string&gt;82|Neo-Geo Pocket Color&lt;/string&gt;
+                        &lt;string&gt;83|Aamber Pegasus&lt;/string&gt;
+                        &lt;string&gt;84|Archimedes&lt;/string&gt;
+                        &lt;string&gt;85|Electron&lt;/string&gt;
+                        &lt;string&gt;86|Apple II&lt;/string&gt;
+                        &lt;string&gt;87|GX4000&lt;/string&gt;
+                        &lt;string&gt;88|Camputers Lynx&lt;/string&gt;
+                        &lt;string&gt;89|Adam&lt;/string&gt;
+                        &lt;string&gt;90|Mega Duck&lt;/string&gt;
+                        &lt;string&gt;91|Dragon 32/64&lt;/string&gt;
+                        &lt;string&gt;92|EG2000 Colour Genie&lt;/string&gt;
+                        &lt;string&gt;93|BK&lt;/string&gt;
+                        &lt;string&gt;94|Arcadia 2001&lt;/string&gt;
+                        &lt;string&gt;95|Game Pocket Computer&lt;/string&gt;
+                        &lt;string&gt;96|EXL 100&lt;/string&gt;
+                        &lt;string&gt;97|FM-7&lt;/string&gt;
+                        &lt;string&gt;98|Loopy&lt;/string&gt;
+                        &lt;string&gt;99|Plus/4&lt;/string&gt;
+                        &lt;string&gt;100|Super A'can&lt;/string&gt;
+                        &lt;string&gt;101|GP32&lt;/string&gt;
+                        &lt;string&gt;102|Vectrex&lt;/string&gt;
+                        &lt;string&gt;103|Game Master&lt;/string&gt;
+                        &lt;string&gt;104|Videopac G7000&lt;/string&gt;
+                        &lt;string&gt;105|PC Engine SuperGrafx&lt;/string&gt;
+                        &lt;string&gt;106|Family Computer Disk System&lt;/string&gt;
+                        &lt;string&gt;107|Satellaview&lt;/string&gt;
+                        &lt;string&gt;108|Sufami Turbo&lt;/string&gt;
+                        &lt;string&gt;109|SG-1000&lt;/string&gt;
+                        &lt;string&gt;110|Nintendo Power&lt;/string&gt;
+                        &lt;string&gt;111|Amiga (AGA)&lt;/string&gt;
+                        &lt;string&gt;112|Type X&lt;/string&gt;
+                        &lt;string&gt;113|MSX&lt;/string&gt;
+                        &lt;string&gt;114|PC Engine CD-Rom&lt;/string&gt;
+                        &lt;string&gt;115|Intellivision&lt;/string&gt;
+                        &lt;string&gt;116|MSX2&lt;/string&gt;
+                        &lt;string&gt;117|MSX2+&lt;/string&gt;
+                        &lt;string&gt;118|MSX Turbo R&lt;/string&gt;
+                        &lt;string&gt;119|GBA e-Reader&lt;/string&gt;
+                        &lt;string&gt;120|V.Smile&lt;/string&gt;
+                        &lt;string&gt;121|Game.com&lt;/string&gt;
+                        &lt;string&gt;122|Nintendo 64DD&lt;/string&gt;
+                        &lt;string&gt;123|ScummVM&lt;/string&gt;
+                        &lt;string&gt;124|Mikrosha&lt;/string&gt;
+                        &lt;string&gt;125|Pecom 64&lt;/string&gt;
+                        &lt;string&gt;126|Jupiter Ace&lt;/string&gt;
+                        &lt;string&gt;127|Super Game Boy&lt;/string&gt;
+                        &lt;string&gt;128|Super Game Boy 2&lt;/string&gt;
+                        &lt;string&gt;129|Amiga CDTV&lt;/string&gt;
+                        &lt;string&gt;130|Amiga CD32&lt;/string&gt;
+                        &lt;string&gt;131|Oric 1 / Atmos&lt;/string&gt;
+                        &lt;string&gt;133|CD-i&lt;/string&gt;
+                        &lt;string&gt;134|Amiga CD&lt;/string&gt;
+                        &lt;string&gt;135|PC Dos&lt;/string&gt;
+                        &lt;string&gt;136|PC Win3.xx&lt;/string&gt;
+                        &lt;string&gt;137|PC Win9X&lt;/string&gt;
+                        &lt;string&gt;138|PC Windows&lt;/string&gt;
+                        &lt;string&gt;139|Amiga CD32 (hack)&lt;/string&gt;
+                        &lt;string&gt;141|Thomson MO/TO&lt;/string&gt;
+                        &lt;string&gt;142|Neo-Geo&lt;/string&gt;
+                        &lt;string&gt;143|Pinball FX2&lt;/string&gt;
+                        &lt;string&gt;144|TRS-80 Color Computer&lt;/string&gt;
+                        &lt;string&gt;145|Linux&lt;/string&gt;
+                        &lt;string&gt;146|Mac OS&lt;/string&gt;
+                        &lt;string&gt;147|Sega Classics&lt;/string&gt;
+                        &lt;string&gt;148|Irem Classics&lt;/string&gt;
+                        &lt;string&gt;149|Seta&lt;/string&gt;
+                        &lt;string&gt;150|Midway Classics&lt;/string&gt;
+                        &lt;string&gt;151|Capcom Classics&lt;/string&gt;
+                        &lt;string&gt;152|Eighting / Raizing&lt;/string&gt;
+                        &lt;string&gt;153|Tecmo&lt;/string&gt;
+                        &lt;string&gt;154|SNK Classics&lt;/string&gt;
+                        &lt;string&gt;155|Namco Classics&lt;/string&gt;
+                        &lt;string&gt;156|Namco System 22&lt;/string&gt;
+                        &lt;string&gt;157|Taito Classics&lt;/string&gt;
+                        &lt;string&gt;158|Konami Classics&lt;/string&gt;
+                        &lt;string&gt;159|Jaleco&lt;/string&gt;
+                        &lt;string&gt;160|Atari Classics&lt;/string&gt;
+                        &lt;string&gt;161|Nintendo Classics&lt;/string&gt;
+                        &lt;string&gt;162|Data East Classics&lt;/string&gt;
+                        &lt;string&gt;163|NMK&lt;/string&gt;
+                        &lt;string&gt;164|Sammy Classics&lt;/string&gt;
+                        &lt;string&gt;165|Exidy&lt;/string&gt;
+                        &lt;string&gt;166|Acclaim&lt;/string&gt;
+                        &lt;string&gt;167|Psikyo&lt;/string&gt;
+                        &lt;string&gt;168|non Jeu&lt;/string&gt;
+                        &lt;string&gt;169|Technos&lt;/string&gt;
+                        &lt;string&gt;170|American Laser Games&lt;/string&gt;
+                        &lt;string&gt;171|Jaguar CD&lt;/string&gt;
+                        &lt;string&gt;172|Playstation minis&lt;/string&gt;
+                        &lt;string&gt;173|Dynax&lt;/string&gt;
+                        &lt;string&gt;174|Kaneko&lt;/string&gt;
+                        &lt;string&gt;175|Video System Co.&lt;/string&gt;
+                        &lt;string&gt;176|IGS&lt;/string&gt;
+                        &lt;string&gt;177|Comad&lt;/string&gt;
+                        &lt;string&gt;178|Amcoe&lt;/string&gt;
+                        &lt;string&gt;179|Century Electronics&lt;/string&gt;
+                        &lt;string&gt;180|Nichibutsu&lt;/string&gt;
+                        &lt;string&gt;181|Visco&lt;/string&gt;
+                        &lt;string&gt;182|Alpha Denshi Co.&lt;/string&gt;
+                        &lt;string&gt;183|Coleco&lt;/string&gt;
+                        &lt;string&gt;184|PlayChoice&lt;/string&gt;
+                        &lt;string&gt;185|Atlus&lt;/string&gt;
+                        &lt;string&gt;186|Banpresto&lt;/string&gt;
+                        &lt;string&gt;187|SemiCom&lt;/string&gt;
+                        &lt;string&gt;188|Universal&lt;/string&gt;
+                        &lt;string&gt;189|Mitchell&lt;/string&gt;
+                        &lt;string&gt;190|Seibu Kaihatsu&lt;/string&gt;
+                        &lt;string&gt;191|Toaplan&lt;/string&gt;
+                        &lt;string&gt;192|Cinematronics&lt;/string&gt;
+                        &lt;string&gt;193|Incredible Technologies&lt;/string&gt;
+                        &lt;string&gt;194|Gaelco&lt;/string&gt;
+                        &lt;string&gt;195|Mega-Tech&lt;/string&gt;
+                        &lt;string&gt;196|Mega-Play&lt;/string&gt;
+                        &lt;string&gt;197|Flipper&lt;/string&gt;
+                        &lt;string&gt;198|Visual Pinball&lt;/string&gt;
+                        &lt;string&gt;199|Future Pinball&lt;/string&gt;
+                        &lt;string&gt;200|the Pinball Arcade&lt;/string&gt;
+                        &lt;string&gt;201|Pinball FX3&lt;/string&gt;
+                        &lt;string&gt;202|Snes - Super Mario World Hacks&lt;/string&gt;
+                        &lt;string&gt;203|Megadrive - Sonic The Hedgehog 2 Hacks&lt;/string&gt;
+                        &lt;string&gt;205|TI-99/4A&lt;/string&gt;
+                        &lt;string&gt;206|Lutro&lt;/string&gt;
+                        &lt;string&gt;207|Watara Supervision&lt;/string&gt;
+                        &lt;string&gt;208|NEC PC-9801&lt;/string&gt;
+                        &lt;string&gt;209|Gottlieb&lt;/string&gt;
+                        &lt;string&gt;210|Super Nintendo MSU-1&lt;/string&gt;
+                        &lt;string&gt;211|Pokémon mini&lt;/string&gt;
+                        &lt;string&gt;213|MGT SAM Coupé&lt;/string&gt;
+                        &lt;string&gt;214|OpenBOR&lt;/string&gt;
+                        &lt;string&gt;215|Z-Machine&lt;/string&gt;
+                        &lt;string&gt;216|Uzebox&lt;/string&gt;
+                        &lt;string&gt;217|Apple IIGS&lt;/string&gt;
+                        &lt;string&gt;218|Spectravideo&lt;/string&gt;
+                        &lt;string&gt;219|Palm OS&lt;/string&gt;
+                        &lt;string&gt;220|Sharp X1&lt;/string&gt;
+                        &lt;string&gt;221|NEC PC-8801&lt;/string&gt;
+                        &lt;string&gt;222|TIC-80&lt;/string&gt;
+                        &lt;string&gt;223|Solarus&lt;/string&gt;
+                        &lt;string&gt;225|Switch&lt;/string&gt;
+                        &lt;string&gt;227|Naomi GD-ROM&lt;/string&gt;
+                        &lt;string&gt;230|Naomi 2&lt;/string&gt;
+                        &lt;string&gt;231|EasyRPG&lt;/string&gt;
+                        &lt;string&gt;234|Pico-8&lt;/string&gt;
+                        &lt;string&gt;237|Pocket Challenge V2&lt;/string&gt;
+                        &lt;string&gt;240|PET&lt;/string&gt;
+                        &lt;string&gt;241|CreatiVision&lt;/string&gt;
+                        &lt;string&gt;244|LowRes NX&lt;/string&gt;
+                        &lt;string&gt;250|Sega Pico&lt;/string&gt;
+                        &lt;string&gt;253|FM Towns&lt;/string&gt;
+                        &lt;string&gt;258|Hikaru&lt;/string&gt;
+                        &lt;string&gt;261|Philips VG 5000&lt;/string&gt;
+                        &lt;string&gt;262|WASM-4&lt;/string&gt;
+                        &lt;string&gt;263|Arduboy&lt;/string&gt;
+                        &lt;string&gt;266|Gamate&lt;/string&gt;
+                    &lt;/ArrayOfString&gt;
+                &lt;/value&gt;
+            &lt;/setting&gt;
+        &lt;/stigzler.Launchbox.Gearbox.Data.Properties.Settings&gt;
+    &lt;/userSettings&gt;
+&lt;/configuration&gt;</value>
+  </data>
+</root>
